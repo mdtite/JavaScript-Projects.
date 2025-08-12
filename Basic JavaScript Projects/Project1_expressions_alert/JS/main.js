@@ -1,10 +1,15 @@
- document.write("Hello World! \"This is a quote\""  + " string.  ")
- window.alert("This is an alert message")
+ document.write("Hello World! \"This is a quote\""  + " string.  ") //concat 2 strings and quotes
+ window.alert("This is an alert message") // window alert method
 
-var A = "This is a string var "
-var B = "This is a second alert"
-document.write(A)
-alert(B)
+ //creating 2 var
+var A = "This is a string var. " //assign var
+var B = "This is a second alert. " //assign var
+//displaying var with documnet write method
+document.write(A + B)
 
-var family = "AllOfUs", dad = "Peter", mom = "Ana", me ="Marius"
-document.write(dad)
+alert(B) // alerting the var B
+
+var family = "AllOfUs", dad = "Peter ", mom = "Ana ", me ="Marius " // assign multiple var
+document.write(dad) //writing one of the var
+
+document.write(3 + 3); //js expression 
