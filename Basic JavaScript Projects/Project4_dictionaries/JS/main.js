@@ -5,5 +5,6 @@ function dict_function() {
         breed: "labrador",
         age: 5
     };
+    delete animal.breed;
     document.getElementById("Dictionary").innerHTML = animal.breed;
 }
