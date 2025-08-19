@@ -15,3 +15,19 @@ document.write(-2E310); // minus infinity
 
 document.write(6>4); //true boolean
 document.write(4<1); //false boolean
+
+console.log(2+2); //4
+console.log(2<3); //true
+console.log(2>9); //false
+
+console.log(2==1+1); //compare true
+console.log(2==2+1); //comapre false
+
+x = 10;
+y = 10;
+z = "10"
+
+a = "marius"
+b = "marius"
+
+console.log(x===y, x===z, a===b); // compare the type and value wiht ===
