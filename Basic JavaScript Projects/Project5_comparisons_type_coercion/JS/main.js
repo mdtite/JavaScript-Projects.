@@ -31,3 +31,16 @@ a = "marius"
 b = "marius"
 
 console.log(x===y, x===z, a===b); // compare the type and value wiht ===
+
+//AND &&
+console.log(5>2 && 10>4) //true
+console.log(5>2 && 10>14) //false
+
+// OR ||
+
+console.log(5>2 || 2>4) //true
+console.log(1>2 || 1>14) //false
+
+// NOT !
+console.log (!(20>10)); //false
+console.log (!(2>10)); //true double negative
