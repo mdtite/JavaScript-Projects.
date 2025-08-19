@@ -12,3 +12,6 @@ function my_function() {
 
 document.write(2E310); //infinity
 document.write(-2E310); // minus infinity
+
+document.write(6>4); //true boolean
+document.write(4<1); //false boolean
