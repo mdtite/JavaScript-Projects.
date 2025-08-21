@@ -1,3 +1,4 @@
+// Tenary Operation
 function ride_function() {
     var height, can_ride;
     height = document.getElementById("height").value;
@@ -12,6 +13,8 @@ function age_function() {
     document.getElementById("agev").innerHTML = can_vote + " to vote!";
 }
 
+
+// Constructor function
 function vehicle(make, model, year, color) {
     this.vehicle_make = make;
     this.vehicle_model = model;
@@ -26,4 +29,17 @@ var Mark = new vehicle("ford", "focus", "1971", "gold")
 function my_function() {
     document.getElementById("keywords_and_constructors").innerHTML = 
     "Mark drives a " + Mark.vehicle_color + "-colored " + Mark.vehicle_model + " manufactured in " + Mark.vehicle_year;
+}
+
+// Nested function
+function countFunction() {
+    document.getElementById("nestedFunction").innerHTML = count();
+    function count() {
+        var startingPoint = 4;
+        function plusOne() {
+            startingPoint += 1;
+        }
+        plusOne();
+        return startingPoint;
+    }
 }
