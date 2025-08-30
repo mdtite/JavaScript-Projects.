@@ -23,3 +23,39 @@ function deductNumbers2() {
 
 deductNumbers();
 deductNumbers2();
+
+//if else statement
+
+function get_date() {
+    if (new Date().getHours() < 18) {
+        document.getElementById("greeting").innerHTML = "How are you today?";
+    }
+    else {
+        document.getElementById("greeting").innerHTML = "It's a bit late no?";
+    }
+}
+
+function age_function() {
+    Age = document.getElementById("Age").value;
+    if (Age >= 18) {
+        vote = "you can vote";
+    } else {
+        vote = "you can't vote";
+    }
+    document.getElementById("how_old").innerHTML = vote;
+}
+
+// else if statement
+
+function time_function() {
+    var Time = new Date().getHours();
+    var Reply;
+    if (Time < 12 == Time > 0) {
+        Reply = "it is morning time!";
+    } else if (Time >= 12 == Time < 18) {
+        Reply = "it is afternoon.";
+    } else {
+        Reply = "it is evening time."
+    }
+    document.getElementById("time_day").innerHTML = Reply;
+}
