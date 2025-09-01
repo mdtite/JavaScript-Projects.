@@ -3,13 +3,60 @@
 <head>
     <title>Basic JS Project number 9</title>
     <meta charset="UTF-8">
-    <script src="JS/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
 </head>
 
 <body>
-<p>How many seconds would you like to set your alarm for?</p>
-<input id="seconds" value="" />
-<button onclick="countdown()"> Click Here</button>
-<p id="timer"></p>
+<!-- countdown timer section -->
+    <p>How many seconds would you like to set your alarm for?</p>
+    <input id="seconds" value="" />
+    <button onclick="countdown()"> Click Here</button>
+    <p id="timer"></p>
+
+<!-- Slideshow section -->
+    <div class="slideshow-container">
+        <!-- 1 -->
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 4</div>
+            <img src="css/pic/a.jpg" style="width: 100%" alt="Spring pic" />
+            <div class="text">Spring</div>
+        </div>
+        
+          <!-- 2 -->
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 4</div>
+            <img src="css/pic/b.jpg" style="width: 100%" alt="Summer pic" />
+            <div class="text">Summer</div>
+        </div>
+
+          <!-- 3 -->
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <img src="css/pic/c.jpg" style="width: 100%" alt="Autumn pic" />
+            <div class="text">Autumn</div>
+        </div>
+
+          <!-- 4 -->
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img src="css/pic/d.jpg" style="width: 100%" alt="Winter pic" />
+            <div class="text">Winter</div>
+        </div>
+
+    <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br />
+
+    <!-- Current selection circle -->
+     <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+     </div>
+
+    <script src="JS/main.js"></script>
 </body>
 </html>
