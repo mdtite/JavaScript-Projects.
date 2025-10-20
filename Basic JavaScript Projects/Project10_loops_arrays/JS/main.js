@@ -70,3 +70,20 @@ description: function()  { return "The car is a " + this.year + this.color + thi
   }
 };
 document.getElementById("Car_Object").innerHTML = car.description();
+
+// Break loop when number is 3
+for (let i = 0; i < 10; i++) {
+  if (i === 3) { break; }
+  text += "The number is " + i + "<br>";
+}
+document.getElementById("demo").innerHTML = text;
+
+//Continue
+let text = "";
+for (let i = 0; i < 10; i++) {
+  if (i === 3) {
+    continue;
+  }
+  text += i;
+}
+console.log(text);
