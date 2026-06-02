@@ -1,16 +1,17 @@
-# JavaScript-Projects
+# JavaScript Projects
 
-Throughout my learning of JavaScript i will create various projects and will push all the code to this repository to keep track of my progress.
+Throughout my JavaScript learning journey, I will be building a variety of projects and uploading them to this repository to document my progress, practice new concepts, and showcase my development skills.
 
-These are some small projects I made using JavaScript.
-##Projects
-###• [Pizza Menu] (https://github.com/mdtite/JavaScript-Projects./tree/main/Basic%20JavaScript%20Projects/Pizza_Project)
-This project is a menu used to order pizza with a various selection of toppings. It then takes the input information and caluclates a price for the order
-###• [Tic-Tac-Toe Game] (https://github.com/mdtite/JavaScript-Projects./tree/main/Basic%20JavaScript%20Projects/TicTacToe)
-The classic game of tic-tac-toe. It randomly rolls dice to select which of the two players goes first and then users are off playing the classic game. Users can decide which token each player wants to use and the winner is celebrated with music and flashing lights.
-###• [Calculator] (https://github.com/mdtite/JavaScript-Projects./tree/main/Basic%20JavaScript%20Projects/Calculator)
-A basic 4 function calculator. Users can add, subtract, multiply, and divide on a sleek web version of a calculator.
-###• [To Do App] (https://github.com/mdtite/JavaScript-Projects./tree/main/Basic%20JavaScript%20Projects/To%20do%20app))
-A simple and responsive to-do list application that enables users to add tasks and remove them with an intuitive user interface.
+## Projects
 
+### [🍕 Pizza Menu](https://github.com/mdtite/JavaScript-Projects/tree/main/Basic%20JavaScript%20Projects/Pizza_Project)
+A pizza ordering application that allows users to customize their order with a variety of toppings. The application calculates the total price based on the selected options.
 
+### [🎮 Tic-Tac-Toe Game](https://github.com/mdtite/JavaScript-Projects/tree/main/Basic%20JavaScript%20Projects/TicTacToe)
+A web-based version of the classic Tic-Tac-Toe game. The starting player is randomly selected, players can choose their preferred token, and the winner is celebrated with sound effects and visual animations.
+
+### [🧮 Calculator](https://github.com/mdtite/JavaScript-Projects/tree/main/Basic%20JavaScript%20Projects/Calculator)
+A sleek and responsive calculator that supports the four basic arithmetic operations: addition, subtraction, multiplication, and division.
+
+### [✅ To-Do App](https://github.com/mdtite/JavaScript-Projects/tree/main/Basic%20JavaScript%20Projects/To%20do%20app)
+A simple and responsive task management application that allows users to add, organize, and remove tasks through an intuitive user interface.
