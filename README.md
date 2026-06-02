@@ -4,14 +4,14 @@ Throughout my JavaScript learning journey, I will be building a variety of proje
 
 ## Projects
 
-### [🍕 Pizza Menu](https://github.com/mdtite/JavaScript-Projects/tree/main/Basic%20JavaScript%20Projects/Pizza_Project)
+### [🍕 Pizza Menu](https://mdtite.github.io/pizza-menu-live/)
 A pizza ordering application that allows users to customize their order with a variety of toppings. The application calculates the total price based on the selected options.
 
-### [🎮 Tic-Tac-Toe Game](https://github.com/mdtite/JavaScript-Projects/tree/main/Basic%20JavaScript%20Projects/TicTacToe)
+### [🎮 Tic-Tac-Toe Game](https://mdtite.github.io/tic-tac-toe-live/)
 A web-based version of the classic Tic-Tac-Toe game. The starting player is randomly selected, players can choose their preferred token, and the winner is celebrated with sound effects and visual animations.
 
-### [🧮 Calculator](https://github.com/mdtite/JavaScript-Projects/tree/main/Basic%20JavaScript%20Projects/Calculator)
+### [🧮 Calculator](https://mdtite.github.io/calculator-live/)
 A sleek and responsive calculator that supports the four basic arithmetic operations: addition, subtraction, multiplication, and division.
 
-### [✅ To-Do App](https://github.com/mdtite/JavaScript-Projects/tree/main/Basic%20JavaScript%20Projects/To%20do%20app)
-A simple and responsive task management application that allows users to add, organize, and remove tasks through an intuitive user interface.
+### [✅ To-Do App](https://mdtite.github.io/personal_website_updated/)
+A simple and responsive task management application that allows users to add and remove tasks through an intuitive user interface.
