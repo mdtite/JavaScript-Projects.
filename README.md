@@ -13,5 +13,5 @@ A web-based version of the classic Tic-Tac-Toe game. The starting player is rand
 ### [🧮 Calculator](https://mdtite.github.io/calculator-live/)
 A sleek and responsive calculator that supports the four basic arithmetic operations: addition, subtraction, multiplication, and division.
 
-### [✅ To-Do App](https://mdtite.github.io/personal_website_updated/)
+### [✅ To-Do App](https://mdtite.github.io/to-do-app-live/)
 A simple and responsive task management application that allows users to add and remove tasks through an intuitive user interface.
